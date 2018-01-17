@@ -1,23 +1,19 @@
-toc:
-  - title:
-    subfolderitems:
-    - page: Installation
-      url: /pages/installation
-    - page: Quick Start
-      url: /pages/quickstart
-  - title: Tutorials
-    subfolderitems:
-      - page: How to edit pages
-        url: /pages/howto-pages
-      - page: How to embed things
-        url: /pages/howto-embed
-  - title: Advanced
-    subfolderitems:
-      - page: How to use my advanced feature
-        url: /
-  - title:
-    subfolderitems:
-    - page: Troubleshooting Guide
-      url: /
-    - page: Latest Releases
-      url: /
+
+order:
+
+- title:            # leave title empty if you don't want a header
+  category: top
+
+- title: Getting Started
+  category: getting-started
+
+- title: Tutorials
+  category: tutorials
+
+- tag: SEPARATOR          # Add a separating line
+
+- title:
+  category: bottom
+  items:                  # Add links like this
+    - title: My Website
+      url: http://www.byfernando.com

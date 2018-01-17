@@ -1,5 +1,7 @@
 ---
 title: How to edit pages
+category: tutorials
+order: 0
 ---
 
 # {{ page.title }}

@@ -56,8 +56,10 @@ body {
     line-height: 1.3em;
     margin-bottom: 10px;
 }
+#toc .active a { color:rgb(158, 158, 158); cursor: default; }
 #toc a:hover { text-decoration: underline; }
 #toc p { margin: 0; }
+#toc hr { line-height: 2em; }
 
 
 h1 { font-size: 2em; font-weight: 700; }

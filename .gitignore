@@ -1,2 +1,9 @@
 
 :_site/
+docs/LICENSE
+docs/localserver
+docs/localserver.bat
+docs/README.md
+docs/deploy
+docs/Gemfile
+docs/Gemfile.lock

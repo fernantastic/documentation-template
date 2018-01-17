@@ -1,14 +1,21 @@
-  {% for item in site.data.tableofcontents.toc %}
-  {% if item.title != null %} 
-    <h3>{{ item.title }}</h3> 
+{% assign pages = site.pages | sort: 'order' %}
+{% for categoryitem in site.data.tableofcontents.order %}
+  {% if categoryitem.tag == "SEPARATOR" %} <hr> {% endif %}
+  {% if categoryitem.title %} <h3>{{ categoryitem.title }}</h3>  {% endif %}
+  
+    {% if categoryitem.category %}
     <ul>
-      {% for entry in item.subfolderitems %}
-        <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
-      {% endfor %}
+    {% for doc in pages %}
+      {% if doc.category == categoryitem.category %}
+      <li class="{% if doc.url == page.url %}active{% endif %}">
+        <a href="{{ doc.url }}">{{ doc.title}}</a>
+      </li>
+      {% endif %}
+    {% endfor %}
     </ul>
-  {% else %}
-      {% for entry in item.subfolderitems %}
-        <p><a href="{{ entry.url }}">{{ entry.page }}</a></p>
-      {% endfor %}
-  {% endif %}
+    {% for link in categoryitem.items %}
+      <p><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></p>
+    {% endfor %}
+    {% endif %} 
+  
 {% endfor %}

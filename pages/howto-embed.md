@@ -1,5 +1,7 @@
 ---
 title: How to embed things
+category: tutorials
+order: 10
 ---
 
 
