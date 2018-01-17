@@ -4,11 +4,11 @@ This is a quick template for making a documentation page using markdown, in the 
 
 Features markdown-based pages and a table of contents you can start editing easily.
 
-![](https://fernandoramallo.github.io/documentation-template/img/screenshot.png)
+[![](https://fernandoramallo.github.io/documentation-template/img/screenshot.png)](https://fernandoramallo.github.io/documentation-template)
 
 ## Demo
 
-See a live demo [here](https://fernandoramallo.github.io/documentation-template/img/screenshot.png)
+See a live demo [here](https://fernandoramallo.github.io/documentation-template)
 
 ## How to use
 
