@@ -1,11 +1,12 @@
 # Simple Documentation!
-A quick template for making a project's documentation page using markdown.
+
+This is a quick template for making a documentation page using markdown, in the form of a ready-to-use Jekyll set up. 
+
+Features markdown-based pages and a table of contents you can start editing easily.
 
 ![](https://raw.githubusercontent.com/fernandoramallo/documentation-template/master/screenshot.png)
 
-## About
-
-This is a ready-to-use Jekyll set up with a table of contents you can start editing to add pages.
+## How to use
 
 Set up [jekyll](https://jekyllrb.com/) and run localserver to start a testing version at http://localhost:4000
 
