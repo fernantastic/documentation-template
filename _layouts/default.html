@@ -4,15 +4,16 @@
         <title>{{ page.title }}</title>
         <!-- <meta name="author" content="Your Name"> -->
         <link rel="stylesheet" type="text/css" href="/css/style.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="/css/skeleton.css" media="screen">
         <link rel="stylesheet" type="text/css" href="/css/pygments.css" media="screen">
         <link href='http://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div id="header"><div class="headercontent"><a href="/">My Project | Documentation</a></div></div>
-        <div id="container">
-            {% include dynamictoc.html %}
-            <div id="content">{{ content }}</div>
+        <div id="site" class="container">
+            <div id="toc" class="three columns">{% include dynamictoc.html %}</div>
+            <div id="content" class="nine columns">{{ content }}</div>
         </div>
         
     </body>
