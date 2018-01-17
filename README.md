@@ -6,6 +6,10 @@ Features markdown-based pages and a table of contents you can start editing easi
 
 ![](https://fernandoramallo.github.io/documentation-template/img/screenshot.png)
 
+## Demo
+
+See a live demo [here](https://fernandoramallo.github.io/documentation-template/img/screenshot.png)
+
 ## How to use
 
 Set up [jekyll](https://jekyllrb.com/) and run localserver to start a testing version at http://localhost:4000
