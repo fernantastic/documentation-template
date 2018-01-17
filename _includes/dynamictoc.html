@@ -1,0 +1,16 @@
+<div id="toc">
+    {% for item in site.data.tableofcontents.toc %}
+    {% if item.title != null %} 
+      <h3>{{ item.title }}</h3> 
+      <ul>
+        {% for entry in item.subfolderitems %}
+          <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+        {% endfor %}
+      </ul>
+    {% else %}
+        {% for entry in item.subfolderitems %}
+          <p><a href="{{ entry.url }}">{{ entry.page }}</a></p>
+        {% endfor %}
+    {% endif %}
+  {% endfor %}
+</div>
